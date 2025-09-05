@@ -35,10 +35,9 @@ body {
 
 .container {
 	display: flex;
-	flex-direction: column; /* stack everything vertically */
+	flex-direction: column; /* stack vertically */
 	gap: 20px; /* space between cards */
-	max-width: 600px; /* nice width for larger screens */
-	width: 100%;
+	width: min(90%, 1100px); /* grow with screen but max 1100px */
 	align-items: center; /* center inside container */
 	box-sizing: border-box;
 }
